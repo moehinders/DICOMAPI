@@ -16,9 +16,9 @@
 
   <repositories>
     <repository>
-      <id>www.dcm4che.org</id>
-      <name>dcm4che Repository</name>
-      <url>https://www.dcm4che.org/maven2</url>
+      <id>dcm4che-maven-repo</id>
+      <name>DCM4CHE Maven Repository</name>
+      <url>https://www.dcm4che.org/maven2/</url>
     </repository>
     <repository>
       <id>central</id>
@@ -28,6 +28,15 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.12</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.30</version> </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
@@ -36,12 +45,17 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
-      <version>2.6.2</version>
+      <version>3.2.2</version>
     </dependency>
     <dependency>
       <groupId>org.dcm4che</groupId>
       <artifactId>dcm4che-core</artifactId>
       <version>5.31.1</version>
+    </dependency>
+    <dependency>
+    <groupId>org.dcm4che</groupId>
+    <artifactId>dcm4che-imageio</artifactId>
+    <version>5.31.1</version>
     </dependency>
   </dependencies>
 </project>
