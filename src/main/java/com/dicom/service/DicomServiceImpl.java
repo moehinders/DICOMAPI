@@ -1,6 +1,5 @@
 package com.dicom.service;
 
-import jakarta.servlet.http.HttpServletResponse;
 import org.dcm4che3.data.Attributes;
 import org.dcm4che3.data.Tag;
 import org.dcm4che3.imageio.plugins.dcm.DicomImageReadParam;

@@ -1,6 +1,5 @@
 package com.dicom.controller;
 
-import com.dicom.model.DicomFile;
 import com.dicom.service.DicomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
